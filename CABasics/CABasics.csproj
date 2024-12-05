@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CABasics.Example13</StartupObject>
+    <StartupObject>CABasics.Example14</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -51,6 +51,7 @@
     <Compile Include="Example11.cs" />
     <Compile Include="Example12.cs" />
     <Compile Include="Example13.cs" />
+    <Compile Include="Example14.cs" />
     <Compile Include="Example2.cs" />
     <Compile Include="Example3.cs" />
     <Compile Include="Example4.cs" />
