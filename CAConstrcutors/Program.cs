@@ -40,6 +40,11 @@ namespace CAConstrcutors
             Console.WriteLine($"EmpID: {empId}, EmpName: {empName} and Salary: {salary}");
             Console.WriteLine($"City: {city} and State: {state}");
         }
+        //Destructor
+        ~Employee()
+        {
+            Console.WriteLine("This is a destructor");
+        }
     }
     class Program
     {
