@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAOopsExample", "CAOopsExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAConstrcutors", "CAConstrcutors\CAConstrcutors.csproj", "{4587AD34-095E-461E-8B39-782A3C6CAB3A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAOverloading", "CAOverloading\CAOverloading.csproj", "{DE4A5E2C-0601-492A-9219-31DE0DF74AE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAInheritance", "CAInheritance\CAInheritance.csproj", "{2AF955F5-3B5B-4195-8986-72CEF1D86C63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{4587AD34-095E-461E-8B39-782A3C6CAB3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4587AD34-095E-461E-8B39-782A3C6CAB3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4587AD34-095E-461E-8B39-782A3C6CAB3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE4A5E2C-0601-492A-9219-31DE0DF74AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE4A5E2C-0601-492A-9219-31DE0DF74AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE4A5E2C-0601-492A-9219-31DE0DF74AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE4A5E2C-0601-492A-9219-31DE0DF74AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
