@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAOverloading", "CAOverload
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAInheritance", "CAInheritance\CAInheritance.csproj", "{2AF955F5-3B5B-4195-8986-72CEF1D86C63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAAbstraction", "CAAbstraction\CAAbstraction.csproj", "{AACB3A7B-6AA5-435E-A6A4-6A39A928C64F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF955F5-3B5B-4195-8986-72CEF1D86C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AACB3A7B-6AA5-435E-A6A4-6A39A928C64F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACB3A7B-6AA5-435E-A6A4-6A39A928C64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACB3A7B-6AA5-435E-A6A4-6A39A928C64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACB3A7B-6AA5-435E-A6A4-6A39A928C64F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
