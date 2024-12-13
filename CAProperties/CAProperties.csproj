@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AACB3A7B-6AA5-435E-A6A4-6A39A928C64F}</ProjectGuid>
+    <ProjectGuid>{DBDBFC7A-018B-4DF6-A6E6-190A947B4269}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CAAbstraction</RootNamespace>
-    <AssemblyName>CAAbstraction</AssemblyName>
+    <RootNamespace>CAProperties</RootNamespace>
+    <AssemblyName>CAProperties</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CAAbstraction.Example2</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,8 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Example1.cs" />
-    <Compile Include="Example2.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
