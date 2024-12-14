@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{579566E9-0608-4443-9BE9-12E6BAEE0C7D}</ProjectGuid>
+    <ProjectGuid>{8037A3FC-8D0C-4C46-9BFE-7BFBA314B47A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CAAccessModifier2</RootNamespace>
-    <AssemblyName>CAAccessModifier2</AssemblyName>
+    <RootNamespace>SealedAndPartial</RootNamespace>
+    <AssemblyName>SealedAndPartial</AssemblyName>
     <TargetFrameworkVersion>v4.8.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>CAAccessModifier2.Five</StartupObject>
+    <StartupObject>SealedAndPartial.Example1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,18 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Five.cs" />
-    <Compile Include="Four.cs" />
+    <Compile Include="Arthematic.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CAAccessModifiers1\CAAccessModifiers1.csproj">
-      <Project>{9f4725ef-bc3a-4d23-8b25-98526c2486ce}</Project>
-      <Name>CAAccessModifiers1</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

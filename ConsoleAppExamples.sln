@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAAccessModifier2", "CAAcce
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAProperties", "CAProperties\CAProperties.csproj", "{DBDBFC7A-018B-4DF6-A6E6-190A947B4269}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedAndPartial", "SealedAndPartial\SealedAndPartial.csproj", "{8037A3FC-8D0C-4C46-9BFE-7BFBA314B47A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{DBDBFC7A-018B-4DF6-A6E6-190A947B4269}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBDBFC7A-018B-4DF6-A6E6-190A947B4269}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBDBFC7A-018B-4DF6-A6E6-190A947B4269}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8037A3FC-8D0C-4C46-9BFE-7BFBA314B47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8037A3FC-8D0C-4C46-9BFE-7BFBA314B47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8037A3FC-8D0C-4C46-9BFE-7BFBA314B47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8037A3FC-8D0C-4C46-9BFE-7BFBA314B47A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
