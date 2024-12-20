@@ -1,0 +1,127 @@
+﻿ADO.Net:
+- SQL : It is a query language used to perform CRUD operation on database tables
+- SQL Server : It is a collection of databases and also it known as RDBMS.
+- SSMS : Sql Server Management Studio, it is an IDE tool.
+- By using above we are able to build a backend application
+
+Frontend App: It is used to interact the user and perform the task.
+- Examples: Console, Windows, Web App, Mobile apps etc.
+- Inorder to develop we use different technologies like Console, WPF, Winforms, ASP.Net WebForms, ASP.Net MVC etc.
+
+
+Backend Apps: Those are used to store the information.
+- Examples: RDBMS(SQL Server) etc.
+
+Middleware Apps: It is used to provide the communication between the frontend and backend application.
+- ADO.Net, ADO, ORM Tools (Dapper, Entity Framework) etc.
+- ADO.Net is a technology, which is used to provide communicate with frontend and backend apps.
+- ADO.Net is having lot of class libraries. 
+- ADO.Net is not only used to communicate with Sql Server, but also we are able to communicate with different data sources like Sql Server, Oracle, My Sql, Sybase etc.
+- Inorder to communicate ADO.Net is having different classes in different namespace and we call it as "Providers"
+- Examples
+	- SqlClient			->	Sql Server
+		- System.Data.SqlClient
+			- SqlConnection
+			- SqlCommand
+			- SqlDataReader
+			- SqlDataAdapter
+			- SqlCommandBuilder etc.
+	- OracleClient			->	Oracle Server
+		- System.Data.OracleClient
+	- OLEDB Client		->	Any DB
+	- ODBC Client			->	Any DB
+	- BorlandClient 		->	Any DB
+
+- To connect with SQL Server using ADO.Net and SqlClient provider we have two methods
+	- Connection-Oriented Architecture
+		- Method - 1 (INSERT, UPDATE and DELETE)	
+		- Method - 2 (Read)
+	- DisConnection-Oriencted Architecture
+
+Connection String: 
+	- Server
+	- credentials - Username and password (If it is Sql Authentication) 
+	- integrated security = true (If it is windows authentication)
+	- database
+To Execute the query using ADO.Net Connection oriented architecture, SqlCommand  class provides 3 methods
+	- ExecuteNonQuery()
+		- It is used to execute the action queries (insert, update and delete).
+		- This function will return the number of rows that are affected.
+		- Return type is "int".
+
+	- ExecuteScalar()
+		- It is used to execute non-action query with aggregate functions (select + aggregate fun).
+		- This function is used to retrive a single value from the database table.
+		- Return type is "object".
+
+	- ExecuteReader()
+		- It is used to retrive data from database (select) 
+		- It retrive either a single value or row or column or table.
+		- This function return type is "SqlDataReader".
+
+Connection Oriented Architecture(Method-1): (Insert/Update/Delete)
+Step-1: Estb the connection
+Step-2: Prepare the query and pass 
+Step-3: Open the connection
+Step-4: Execute the query
+Step-5: Close the connection.
+
+Connection Oriented Architecture(Method-2): (Insert/Update/Delete/[Select])
+Step-1: Estb the connection
+Step-2: Prepare the query and pass 
+Step-3: Open the connection
+Step-4: Execute the query
+Step-5: Read the data from the data source
+Step-6: Close the connection
+
+
+Task:
+Do you have credentials to Login?(Yes/No) : No
+
+Registration
+--------------
+Enter Name: 
+Enter Username: 
+Enter Password:
+Enter Confirm Password:
+Enter Mobile Number:
+
+SignIn
+
+Registration Success.
+
+ProductID 	ProductName		Price	Qty
+1			Oppo			12000	4
+2			Oneplus			45555	2
+3			Iphone15		60000	2
+
+
+2
+Do you want to add more? (Yes/No): Yes
+ProductID 	ProductName		Price	Qty
+1			Oppo			12000	4
+2			Oneplus			45555	1
+3			Iphone15		60000	2
+
+3
+Do you want to add more? (Yes/No) : No
+CartID 	ProductID	PorductName   Username  FinalPrice
+
+
+
+Database: 
+Registration
+Product
+Order
+Cart
+
+
+Thanks for shopping withus...!
+Your total cost is: 105000
+
+
+
+
+
+
+
