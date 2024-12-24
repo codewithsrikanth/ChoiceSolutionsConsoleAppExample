@@ -39,7 +39,6 @@ namespace CADatabase
                     da.Update(ds.Tables["Employee"]);
                     Console.WriteLine("Record(s) updated on DB");
                 }
-
             }
             Console.Read();
         }
